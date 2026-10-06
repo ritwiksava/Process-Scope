@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Runtime/generated output
+findings/
+fuzz_output/
+crashes/
+logs/
+
+# Build artifacts
+*.o
+*.so
+*.out
+
+# Local binaries
+fuzz_target
+harness
+
+# Editor/OS junk
+.vscode/
+.idea/
+.DS_Store
+
